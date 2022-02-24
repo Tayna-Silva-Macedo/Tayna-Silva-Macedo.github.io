@@ -4,10 +4,28 @@
 <head>
   <meta charset="UTF-8" />
   <title>Portifólio - Tayná Macêdo</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Fredericka the Great|Rubik">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fauna+One&family=Pacifico&display=swap"
+    rel="stylesheet">
   <style>
+    body {
+      background-color: #CCD5FF;
+    }
+
+    p {
+      font-family: "Fauna One", serif;
+      text-align: justify;
+    }
+
+    strong {
+      font-style: italic;
+      text-decoration: underline;
+    }
+
     .titulos {
-      font-family: "Fredericka the Great", cursive;
+      font-family: Cinzel;
+      color: #23C9FF;
     }
 
     .primeiroi {
@@ -26,37 +44,42 @@
       font-size: 15px;
     }
 
-    p {
-      font-family: Rubik, sans-serif;
+    .button {
+      background-color: #7CC6FE;
+      padding: 7px 15px;
+      text-decoration: none;
+      border-radius: 5px;
     }
 
-    h2 {
-      font-family: "Sofia", sans-serif;
+    .picture {
+      border-radius: 15%;
     }
 
-    body {
-      background-color: #fae1dd;
+    #indice {
+      font-family: Cinzel;
+      color: #C884A6;
+      text-align: center;
     }
 
-    strong {
-      font-style: italic;
-      text-decoration: underline;
+    #cursiva {
+      font-family: Pacifico;
+      color: #C884A6;
     }
   </style>
 </head>
 
 <body>
-  <h1 class="titulos">Índice</h1>
-  <a href="#eu">Sobre mim</a><br>
-  <a href="#trajetoria">Minha trajetória</a><br>
-  <a href="#habilidades">Minhas principais habilidades</a><br>
-  <a href="#contatos">Contatos</a>
+  <h1 id="indice">Índice</h1>
+  <a href="#eu" class="button">Sobre mim</a>
+  <a href="#trajetoria" class="button">Minha trajetória</a>
+  <a href="#habilidades" class="button">Minhas principais habilidades</a>
+  <a href="#contatos" class="button">Contatos</a>
 
-  <h2>Olá! Eu sou a Tayná Silva Macêdo</h2>
+  <h1 id="cursiva">Olá! Eu sou a Tayná Silva Macêdo</h1>
 
   <h3 id="eu" class="titulos">Sobre mim</h3>
   <img src="fotoatual.jpg" alt="Uma foto minha, usando um chapéu e óculos de sol em frente a uma das pirâmides de Gize"
-    width="300px" />
+    width="300px" class="picture">
   <p>
     Eu me chamo <strong>Tayná</strong>, sou de São Paulo - SP, e atualmente moro em <strong>São Carlos -SP</strong>.<br>
     Amo viajar e sou apaixonada por animais.
@@ -90,12 +113,10 @@
   </ul>
 
   <h3 id="contatos" class="titulos">Contatos</h3>
-  <ul>
-    <li><a href="https://www.facebook.com/tayna.silvamacedo" target="_blank">Facebook</a></li>
-    <li><a href="https://www.instagram.com/tayna_macedo_/" target="_blank">Instagram</a></li>
-    <li><a href="https://www.linkedin.com/in/tayna-macedo/" target="_blank">Linkedin</a></li>
-    <li><a href="https://github.com/Tayna-Silva-Macedo" target="_blank">GitHub</a></li>
-  </ul>
+  <a href="https://www.facebook.com/tayna.silvamacedo" target="_blank" class="button">Facebook</a>
+  <a href="https://www.instagram.com/tayna_macedo_/" target="_blank" class="button">Instagram</a>
+  <a href="https://www.linkedin.com/in/tayna-macedo/" target="_blank" class="button">Linkedin</a>
+  <a href="https://github.com/Tayna-Silva-Macedo" target="_blank" class="button">GitHub</a>
 </body>
 
 </html>
