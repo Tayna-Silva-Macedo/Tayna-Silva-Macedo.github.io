@@ -1,0 +1,76 @@
+body {
+    background-color: #CCD5FF;
+    padding: 0 3%;
+  }
+
+  p, ul {
+    font-family: "Fauna One", serif;
+    text-align: justify;
+  }
+
+  ul li:nth-child(odd) {
+    background-color: #7CC6FE;
+  }
+
+  strong {
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .titulos {
+    font-family: Cinzel;
+    color: #23C9FF;
+  }
+
+  .button {
+    background-color: #7CC6FE;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    background-color: #C884A6;
+    color: white;
+  }
+
+  .picture {
+    border-radius: 15%;
+    float: left;
+    padding: 15px;
+    background-color: #7CC6FE;
+  }
+
+  .image-container {
+    height: 430px;
+    position: relative;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  #indice {
+    font-family: Cinzel;
+    color: #C884A6;
+    text-align: center;
+    margin: 5px 0px;
+  }
+
+  #cursiva {
+    font-family: Pacifico;
+    color: #C884A6;
+    text-align: center;    
+  }
+
+  #divisao-indice {
+    text-align: center;
+    height: 30px
+  }
+
+  #description {
+    position: absolute;
+    top: 175px;
+    left: 425px;
+    text-align: center;
+  }
