@@ -46,7 +46,17 @@ footer {
 }
 
 .indice-botoes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
+  background-color: #23c9ff;
+  height: 85px;
+}
+
+.meunome {
+  margin: 85px 0 30px;
 }
 
 .foto-descricao {
